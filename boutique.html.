@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique - Truck Custom Design</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<img src="LOGO" alt="Truck Custom Design" width="180">
+
+<h1>Notre boutique</h1>
+
+<p>Choisissez votre skin ETS2</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Accueil</a>
+
+<a href="boutique.html">Boutique</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<section class="boutique">
+
+<h2>Nos Skins</h2>
+
+<div class="produits">
+
+<div class="produit">
+
+<img src="SCANIA R BAJARD ET FILS" alt="Scania Bajard">
+
+<h3>Scania R Bajard & Fils</h3>
+
+<p class="prix">9,99 €</p>
+
+<a class="bouton" href="#">Acheter</a>
+
+</div>
+
+<div class="produit">
+
+<img src="SCANIA BAJARD ET FILS RJL" alt="Scania RJL">
+
+<h3>Scania Bajard & Fils RJL</h3>
+
+<p class="prix">9,99 €</p>
+
+<a class="bouton" href="#">Acheter</a>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="scripts.js"></script>
+
+</body>
+</html> 
