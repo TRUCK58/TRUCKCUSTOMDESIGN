@@ -2,10 +2,156 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Truck Custom Design</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#111;
+color:white;
+}
+
+header{
+background:#c40000;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(#111,#222);
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#e00000;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.produits{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+padding:50px;
+}
+
+.carte{
+background:#222;
+width:300px;
+border-radius:12px;
+overflow:hidden;
+}
+
+.carte img{
+width:100%;
+display:block;
+}
+
+.carte h2{
+padding:15px;
+}
+
+.carte p{
+padding:0 15px 15px;
+}
+
+.prix{
+font-size:24px;
+color:#00ff66;
+font-weight:bold;
+}
+
+footer{
+background:#000;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+</style>
+
 </head>
+
 <body>
-<h1>Bienvenue sur Truck Custom Design</h1>
-<p>Ma boutique de skins Euro Truck Simulator 2.</p>
+
+<header>
+<h1>🚛 Truck Custom Design</h1>
+<p>Des skins uniques pour Euro Truck Simulator 2</p>
+</header>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Boutique</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Bienvenue</h1>
+
+<p>Découvrez des skins de qualité pour personnaliser votre camion.</p>
+
+<a class="btn" href="#">Voir les skins</a>
+</section>
+
+<section class="produits">
+
+<div class="carte">
+<img src="https://picsum.photos/300/180?1">
+<h2>Skin Scania</h2>
+<p class="prix">9,99 €</p>
+</div>
+
+<div class="carte">
+<img src="https://picsum.photos/300/180?2">
+<h2>Skin Volvo</h2>
+<p class="prix">9,99 €</p>
+</div>
+
+<div class="carte">
+<img src="https://picsum.photos/300/180?3">
+<h2>Skin DAF</h2>
+<p class="prix">9,99 €</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Truck Custom Design
+</footer>
+
 </body>
 </html> 
